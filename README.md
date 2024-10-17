@@ -75,4 +75,6 @@ docker stop <id do container>
 
 Faça suas mudanças e rode novamente os comandos de "build e "run".
 
+Codigos de React, Vite, Node e estruturação completa: https://github.com/roofranklin
+
 ### Divirta-se!
