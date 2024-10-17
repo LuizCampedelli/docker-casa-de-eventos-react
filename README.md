@@ -1,4 +1,4 @@
-# Sistema de casa de eventos turma 1025
+# Sistema de casa de eventos | React Vite Node Docker
 
 ![Print da Homepage](https://i.ibb.co/0BLwdMW/Screenshot-2024-02-19-at-16-30-28.png)
 
@@ -6,7 +6,8 @@
 
 - React
 - Vite
-- Node v20.5.1
+- Node
+- Docker
 
 ## Dependências Utilizadas
 
@@ -14,32 +15,13 @@
 - Styled Components
 - Axios
 - React Toastify
-- Json Server
-
-## Participantes do projeto
-
-- Aluno 01
-- Aluno 02
-- Aluno 03
-
-## Responsaveis pelo desenvolvimento:
-
-### Aluno 01
-
-- Criou o componente de rotas
-- Foi responsável pelo CSS
-
-### Aluno 02
-
-- Criou a página de login
-- Criou o Componente de cabeçalho
 
 ## Instruções de Instalação
 
 Clonar o projeto com o comando abaixo:
 
 ```sh
-git clone https://github.com/roofranklin/casa-de-eventos-react.git
+git clone git@github.com:LuizCampedelli/casa-de-eventos-react.git
 ```
 
 Entrar na pasta do projeto
@@ -54,24 +36,45 @@ Instalar as dependencias
 npm install
 ```
 
-Instalar de maneira global o json-server (Caso você ainda não possua)
-
-```sh
-npm install -g json-server
-```
-
 ## Instruções para rodar o projeto
 
-Digitar o comando abaixo para rodar em desenvolvimento
+Digitar o comando para criar a imagem do docker baseado nos requisitos do Dockerfile
 
 ```sh
-npm run dev
+docker buildx buld -t casa-de-eventos-react .
 ```
+Digitar o comando para rodar a imagem do docker em uma porta especifica
 
-Digitar o comando abaixo para rodar o mock local
 
 ```sh
-json-server --watch eventos.json
+docker run -d -p 5173:5173 casa-de-eventos-react
 ```
 
-### _Pronto! Seu projeto já estará rodando no endereço http://localhost:5173_
+### _Pronto! Seu projeto já estará rodando no endereço
+
+```sh
+http://localhost:5173
+```
+Caso haja necessidade de mudanças no código
+
+```sh
+docker ps
+```
+Olhe o id do container
+
+```sh
+CONTAINER ID   IMAGE                   COMMAND                  CREATED          STATUS          PORTS                                       NAMES
+fb9d05203a74   casa-de-eventos-react   "docker-entrypoint.s…"   31 minutes ago   Up 31 minutes   0.0.0.0:5173->5173/tcp, :::5173->5173/tcp   nervous_jennings
+```
+
+Pare o container
+
+```sh
+docker stop <id do container>
+```
+
+Faça suas mudanças e rode novamente os comandos de "build e "run".
+
+Codigos de React, Vite, Node e estruturação completa: https://github.com/roofranklin
+
+### Divirta-se!
