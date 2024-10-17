@@ -1,4 +1,4 @@
-# Sistema de casa de eventos | React Vite Node Docker
+# Sistema de casa de eventos | React Vite Node Docker | Santander DevOps 1182
 
 ![Screenshot from 2024-10-17 14-30-39](https://github.com/user-attachments/assets/dce5441a-742e-4be1-9f74-b66168bb327d)
 
@@ -50,7 +50,7 @@ Digitar o comando para rodar a imagem do docker em uma porta especifica
 docker run -d -p 5173:5173 casa-de-eventos-react
 ```
 
-### _Pronto! Seu projeto já estará rodando no endereço
+### Pronto! Seu projeto já estará rodando no endereço
 
 ```sh
 http://localhost:5173
@@ -75,6 +75,24 @@ docker stop <id do container>
 
 Faça suas mudanças e rode novamente os comandos de "build e "run".
 
+### Guardar imagem Docker no Docker Hub
+
+```sh
+docker login
+```
+Depois
+
+```sh
+docker tag <tag do nome da imagem> <tag do usuario do docker hub>/<tag do nome da imagem>:<tag da versão>
+Exemplo: docker tag casa-de-eventos-react vapeprosper/casa-de-eventos-react:v.1
+```
+
+Publicar no Docker Hub
+
+```sh
+docker push <tag do usuario do docker hub>/<tag do nome da imagem>:<tag da versão>
+docker push vapeprosper/casa-de-eventos-react:v.1
+```
 Codigos de React, Vite, Node e estruturação completa: https://github.com/roofranklin
 
 ### Divirta-se!
