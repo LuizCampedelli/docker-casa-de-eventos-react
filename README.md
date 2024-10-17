@@ -93,6 +93,13 @@ Publicar no Docker Hub
 docker push <tag do usuario do docker hub>/<tag do nome da imagem>:<tag da versão>
 docker push vapeprosper/casa-de-eventos-react:v.1
 ```
+
+### Imagem no docker Hub
+
+https://hub.docker.com/r/vapeprosper/casa-de-eventos-react
+
+### Agradecimentos
+
 Codigos de React, Vite, Node e estruturação completa: https://github.com/roofranklin
 
 ### Divirta-se!
