@@ -6,7 +6,8 @@
 
 - React
 - Vite
-- Node v20.5.1
+- Node
+- Docker
 
 ## Dependências Utilizadas
 
@@ -14,7 +15,6 @@
 - Styled Components
 - Axios
 - React Toastify
-- Json Server
 
 ## Instruções de Instalação
 
