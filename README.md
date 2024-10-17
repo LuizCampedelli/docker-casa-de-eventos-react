@@ -1,6 +1,6 @@
 # Sistema de casa de eventos | React Vite Node Docker
 
-![Print da Homepage](https://i.ibb.co/0BLwdMW/Screenshot-2024-02-19-at-16-30-28.png)
+![Screenshot from 2024-10-17 14-30-39](https://github.com/user-attachments/assets/dce5441a-742e-4be1-9f74-b66168bb327d)
 
 ## Tecnologias Utilizadas
 
