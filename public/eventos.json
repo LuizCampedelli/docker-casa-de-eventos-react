@@ -1,0 +1,45 @@
+{
+  "eventos": [
+    {
+      "id": "1",
+      "titulo": "Formatura Colegio D. Pedro",
+      "data": "12/02/2024",
+      "horario": "20:00",
+      "preco": 0,
+      "url_da_imagem": "https://roofranklin.github.io/casa-de-eventos/img/formatura.jpeg",
+      "evento_privado": false
+    },
+    {
+      "id": "2",
+      "titulo": "Concurso de Fantasias",
+      "data": "15/02/2024",
+      "horario": "20:00",
+      "preco": 40,
+      "url_da_imagem": "https://uniao.ugv.edu.br/content/uploads/2023/03/2K4A9490.jpg",
+      "evento_privado": false
+    },
+    {
+      "id": "3",
+      "titulo": "Casamento Florinda e Girafales",
+      "data": "09/03/2024",
+      "horario": "16:00",
+      "preco": 0,
+      "url_da_imagem": "https://imgsapp.em.com.br/app/noticia_127983242361/2023/05/21/1496049/uma-cor-que-esta-totalmente-proibida-para-as-convidadas-de-acordo-com-a-etiqueta-de-casamento-e-o-branco-que-esta-reservado-para-as-noivas-a-nao-ser-que-o-casamento-seja-na-praia_1_55583.jpg",
+      "evento_privado": false
+    }
+  ],
+  "usuarios": [
+    {
+      "nome": "Gustavo",
+      "email": "gustavo@ig.com.br",
+      "senha": "123456",
+      "id": "77d2"
+    },
+    {
+      "nome": "João",
+      "email": "joao@ig.com.br",
+      "senha": "123456",
+      "id": "62ce"
+    }
+  ]
+}
