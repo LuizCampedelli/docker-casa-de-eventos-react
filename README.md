@@ -53,5 +53,26 @@ docker run -d -p 5173:5173 casa-de-eventos-react
 ### _Pronto! Seu projeto já estará rodando no endereço
 
 ```sh
-http://localhost:5172
+http://localhost:5173
 ```
+Caso haja necessidade de mudanças no código
+
+```sh
+docker ps
+```
+Olhe o id do container
+
+```sh
+CONTAINER ID   IMAGE                   COMMAND                  CREATED          STATUS          PORTS                                       NAMES
+fb9d05203a74   casa-de-eventos-react   "docker-entrypoint.s…"   31 minutes ago   Up 31 minutes   0.0.0.0:5173->5173/tcp, :::5173->5173/tcp   nervous_jennings
+```
+
+Pare o container
+
+```sh
+docker stop <id do container>
+```
+
+Faça suas mudanças e rode novamente os comandos de "build e "run".
+
+### Divirta-se!
