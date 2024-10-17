@@ -17,7 +17,7 @@ const RodapeText = styled.p`
 function Rodape() {
     return (
         <RodapeContainer>
-            <RodapeText>Copyright © 2024 - Site desenvolvido por turma 1025.</RodapeText>
+            <RodapeText>.</RodapeText>
         </RodapeContainer>
     )
 }
