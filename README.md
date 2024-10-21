@@ -75,6 +75,12 @@ docker stop <id do container>
 
 Faça suas mudanças e rode novamente os comandos de "build e "run".
 
+### Para rodar e ver o json no backend
+
+```sh
+http://localhost:5173/events.json
+```
+
 ### Guardar imagem Docker no Docker Hub
 
 ```sh
