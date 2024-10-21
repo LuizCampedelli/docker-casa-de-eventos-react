@@ -81,6 +81,8 @@ Faça suas mudanças e rode novamente os comandos de "build e "run".
 http://localhost:5173/events.json
 ```
 
+![json backend](https://github.com/user-attachments/assets/878b2af0-d914-4ac0-a0c2-bd5e69f4fa13)
+
 ### Guardar imagem Docker no Docker Hub
 
 ```sh
